@@ -22,7 +22,7 @@ app.use(todoRoutes)
 
 function mongoCon() {
     moongoose.connect(
-        'mongodb+srv://fiasko:ras01@cluster0.6hpde.mongodb.net/todos', 
+        '', 
         {
         useNewUrlParser: true,
         useUnifiedTopology: true,
